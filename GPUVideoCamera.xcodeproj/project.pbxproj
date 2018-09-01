@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A3AFBD0213AB1D40083584A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3AFBCF213AB1D40083584A /* AppDelegate.m */; };
+		5A3AFBD3213AB1D40083584A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3AFBD2213AB1D40083584A /* ViewController.m */; };
+		5A3AFBD6213AB1D40083584A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3AFBD4213AB1D40083584A /* Main.storyboard */; };
+		5A3AFBD8213AB1D60083584A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A3AFBD7213AB1D60083584A /* Assets.xcassets */; };
+		5A3AFBDB213AB1D60083584A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3AFBD9213AB1D60083584A /* LaunchScreen.storyboard */; };
+		5A3AFBDE213AB1D60083584A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3AFBDD213AB1D60083584A /* main.m */; };
+		5A3AFBE8213AB1D60083584A /* GPUVideoCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3AFBE7213AB1D60083584A /* GPUVideoCameraTests.m */; };
+		5A3AFBF3213AB1D60083584A /* GPUVideoCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3AFBF2213AB1D60083584A /* GPUVideoCameraUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A3AFBE4213AB1D60083584A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A3AFBC3213AB1D40083584A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A3AFBCA213AB1D40083584A;
+			remoteInfo = GPUVideoCamera;
+		};
+		5A3AFBEF213AB1D60083584A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A3AFBC3213AB1D40083584A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A3AFBCA213AB1D40083584A;
+			remoteInfo = GPUVideoCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A3AFBCB213AB1D40083584A /* GPUVideoCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUVideoCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3AFBCE213AB1D40083584A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A3AFBCF213AB1D40083584A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A3AFBD1213AB1D40083584A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A3AFBD2213AB1D40083584A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A3AFBD5213AB1D40083584A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A3AFBD7213AB1D60083584A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A3AFBDA213AB1D60083584A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A3AFBDC213AB1D60083584A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3AFBDD213AB1D60083584A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A3AFBE3213AB1D60083584A /* GPUVideoCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUVideoCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3AFBE7213AB1D60083584A /* GPUVideoCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUVideoCameraTests.m; sourceTree = "<group>"; };
+		5A3AFBE9213AB1D60083584A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3AFBEE213AB1D60083584A /* GPUVideoCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUVideoCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3AFBF2213AB1D60083584A /* GPUVideoCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUVideoCameraUITests.m; sourceTree = "<group>"; };
+		5A3AFBF4213AB1D60083584A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A3AFBC8213AB1D40083584A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3AFBE0213AB1D60083584A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3AFBEB213AB1D60083584A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A3AFBC2213AB1D40083584A = {
+			isa = PBXGroup;
+			children = (
+				5A3AFBCD213AB1D40083584A /* GPUVideoCamera */,
+				5A3AFBE6213AB1D60083584A /* GPUVideoCameraTests */,
+				5A3AFBF1213AB1D60083584A /* GPUVideoCameraUITests */,
+				5A3AFBCC213AB1D40083584A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A3AFBCC213AB1D40083584A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A3AFBCB213AB1D40083584A /* GPUVideoCamera.app */,
+				5A3AFBE3213AB1D60083584A /* GPUVideoCameraTests.xctest */,
+				5A3AFBEE213AB1D60083584A /* GPUVideoCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A3AFBCD213AB1D40083584A /* GPUVideoCamera */ = {
+			isa = PBXGroup;
+			children = (
+				5A3AFBCE213AB1D40083584A /* AppDelegate.h */,
+				5A3AFBCF213AB1D40083584A /* AppDelegate.m */,
+				5A3AFBD1213AB1D40083584A /* ViewController.h */,
+				5A3AFBD2213AB1D40083584A /* ViewController.m */,
+				5A3AFBD4213AB1D40083584A /* Main.storyboard */,
+				5A3AFBD7213AB1D60083584A /* Assets.xcassets */,
+				5A3AFBD9213AB1D60083584A /* LaunchScreen.storyboard */,
+				5A3AFBDC213AB1D60083584A /* Info.plist */,
+				5A3AFBDD213AB1D60083584A /* main.m */,
+			);
+			path = GPUVideoCamera;
+			sourceTree = "<group>";
+		};
+		5A3AFBE6213AB1D60083584A /* GPUVideoCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A3AFBE7213AB1D60083584A /* GPUVideoCameraTests.m */,
+				5A3AFBE9213AB1D60083584A /* Info.plist */,
+			);
+			path = GPUVideoCameraTests;
+			sourceTree = "<group>";
+		};
+		5A3AFBF1213AB1D60083584A /* GPUVideoCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A3AFBF2213AB1D60083584A /* GPUVideoCameraUITests.m */,
+				5A3AFBF4213AB1D60083584A /* Info.plist */,
+			);
+			path = GPUVideoCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A3AFBCA213AB1D40083584A /* GPUVideoCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3AFBF7213AB1D60083584A /* Build configuration list for PBXNativeTarget "GPUVideoCamera" */;
+			buildPhases = (
+				5A3AFBC7213AB1D40083584A /* Sources */,
+				5A3AFBC8213AB1D40083584A /* Frameworks */,
+				5A3AFBC9213AB1D40083584A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPUVideoCamera;
+			productName = GPUVideoCamera;
+			productReference = 5A3AFBCB213AB1D40083584A /* GPUVideoCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A3AFBE2213AB1D60083584A /* GPUVideoCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3AFBFA213AB1D60083584A /* Build configuration list for PBXNativeTarget "GPUVideoCameraTests" */;
+			buildPhases = (
+				5A3AFBDF213AB1D60083584A /* Sources */,
+				5A3AFBE0213AB1D60083584A /* Frameworks */,
+				5A3AFBE1213AB1D60083584A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A3AFBE5213AB1D60083584A /* PBXTargetDependency */,
+			);
+			name = GPUVideoCameraTests;
+			productName = GPUVideoCameraTests;
+			productReference = 5A3AFBE3213AB1D60083584A /* GPUVideoCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A3AFBED213AB1D60083584A /* GPUVideoCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3AFBFD213AB1D60083584A /* Build configuration list for PBXNativeTarget "GPUVideoCameraUITests" */;
+			buildPhases = (
+				5A3AFBEA213AB1D60083584A /* Sources */,
+				5A3AFBEB213AB1D60083584A /* Frameworks */,
+				5A3AFBEC213AB1D60083584A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A3AFBF0213AB1D60083584A /* PBXTargetDependency */,
+			);
+			name = GPUVideoCameraUITests;
+			productName = GPUVideoCameraUITests;
+			productReference = 5A3AFBEE213AB1D60083584A /* GPUVideoCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A3AFBC3213AB1D40083584A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = liu;
+				TargetAttributes = {
+					5A3AFBCA213AB1D40083584A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5A3AFBE2213AB1D60083584A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5A3AFBCA213AB1D40083584A;
+					};
+					5A3AFBED213AB1D60083584A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5A3AFBCA213AB1D40083584A;
+					};
+				};
+			};
+			buildConfigurationList = 5A3AFBC6213AB1D40083584A /* Build configuration list for PBXProject "GPUVideoCamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A3AFBC2213AB1D40083584A;
+			productRefGroup = 5A3AFBCC213AB1D40083584A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A3AFBCA213AB1D40083584A /* GPUVideoCamera */,
+				5A3AFBE2213AB1D60083584A /* GPUVideoCameraTests */,
+				5A3AFBED213AB1D60083584A /* GPUVideoCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A3AFBC9213AB1D40083584A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3AFBDB213AB1D60083584A /* LaunchScreen.storyboard in Resources */,
+				5A3AFBD8213AB1D60083584A /* Assets.xcassets in Resources */,
+				5A3AFBD6213AB1D40083584A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3AFBE1213AB1D60083584A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3AFBEC213AB1D60083584A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A3AFBC7213AB1D40083584A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3AFBD3213AB1D40083584A /* ViewController.m in Sources */,
+				5A3AFBDE213AB1D60083584A /* main.m in Sources */,
+				5A3AFBD0213AB1D40083584A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3AFBDF213AB1D60083584A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3AFBE8213AB1D60083584A /* GPUVideoCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3AFBEA213AB1D60083584A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3AFBF3213AB1D60083584A /* GPUVideoCameraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A3AFBE5213AB1D60083584A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A3AFBCA213AB1D40083584A /* GPUVideoCamera */;
+			targetProxy = 5A3AFBE4213AB1D60083584A /* PBXContainerItemProxy */;
+		};
+		5A3AFBF0213AB1D60083584A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A3AFBCA213AB1D40083584A /* GPUVideoCamera */;
+			targetProxy = 5A3AFBEF213AB1D60083584A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A3AFBD4213AB1D40083584A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A3AFBD5213AB1D40083584A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A3AFBD9213AB1D60083584A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A3AFBDA213AB1D60083584A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A3AFBF5213AB1D60083584A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A3AFBF6213AB1D60083584A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A3AFBF8213AB1D60083584A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPUVideoCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bones.GPUVideoCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A3AFBF9213AB1D60083584A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPUVideoCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bones.GPUVideoCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A3AFBFB213AB1D60083584A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPUVideoCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bones.GPUVideoCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPUVideoCamera.app/GPUVideoCamera";
+			};
+			name = Debug;
+		};
+		5A3AFBFC213AB1D60083584A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPUVideoCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bones.GPUVideoCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPUVideoCamera.app/GPUVideoCamera";
+			};
+			name = Release;
+		};
+		5A3AFBFE213AB1D60083584A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPUVideoCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bones.GPUVideoCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPUVideoCamera;
+			};
+			name = Debug;
+		};
+		5A3AFBFF213AB1D60083584A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPUVideoCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bones.GPUVideoCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPUVideoCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A3AFBC6213AB1D40083584A /* Build configuration list for PBXProject "GPUVideoCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3AFBF5213AB1D60083584A /* Debug */,
+				5A3AFBF6213AB1D60083584A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A3AFBF7213AB1D60083584A /* Build configuration list for PBXNativeTarget "GPUVideoCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3AFBF8213AB1D60083584A /* Debug */,
+				5A3AFBF9213AB1D60083584A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A3AFBFA213AB1D60083584A /* Build configuration list for PBXNativeTarget "GPUVideoCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3AFBFB213AB1D60083584A /* Debug */,
+				5A3AFBFC213AB1D60083584A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A3AFBFD213AB1D60083584A /* Build configuration list for PBXNativeTarget "GPUVideoCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3AFBFE213AB1D60083584A /* Debug */,
+				5A3AFBFF213AB1D60083584A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A3AFBC3213AB1D40083584A /* Project object */;
+}
