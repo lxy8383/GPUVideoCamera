@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import <Photos/Photos.h>
 
-@interface ViewController ()
+@interface ViewController () <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
 @end
 
@@ -16,7 +17,53 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+//    AVAuthorizationStatus authStatus = [AVCaptureDevic eauthorizationStatusForMediaType:AVMediaTypeVideo];
+    
+
+    if ([PHPhotoLibrary authorizationStatus] == PHAuthorizationStatusNotDetermined) {
+        
+        [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
+            
+            if (status == PHAuthorizationStatusAuthorized) {
+                
+                
+                UIImagePickerController *imagePicker = [[UIImagePickerController alloc]init];
+                
+                imagePicker.allowsEditing = YES;
+                
+                imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+                
+                imagePicker.delegate = self;
+                
+                [self presentViewController:imagePicker animated:YES completion:^{
+                    
+                    NSLog(@"打开相册");
+                    
+                }];
+
+            }
+        }];
+    }else if ([PHPhotoLibrary authorizationStatus] == PHAuthorizationStatusAuthorized){
+        
+        UIImagePickerController *imagePicker = [[UIImagePickerController alloc]init];
+        
+        imagePicker.allowsEditing = YES;
+        
+        imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+        
+        imagePicker.delegate = self;
+        
+        [self presentViewController:imagePicker animated:YES completion:^{
+            
+            NSLog(@"打开相册");
+            
+        }];
+
+    }
+   
+    
 }
 
 
