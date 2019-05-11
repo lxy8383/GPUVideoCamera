@@ -38,6 +38,8 @@
 	</array>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>用来干嘛</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>用来干嘛2</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

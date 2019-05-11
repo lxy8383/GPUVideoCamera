@@ -15,6 +15,10 @@
 		5A3AFBDE213AB1D60083584A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3AFBDD213AB1D60083584A /* main.m */; };
 		5A3AFBE8213AB1D60083584A /* GPUVideoCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3AFBE7213AB1D60083584A /* GPUVideoCameraTests.m */; };
 		5A3AFBF3213AB1D60083584A /* GPUVideoCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3AFBF2213AB1D60083584A /* GPUVideoCameraUITests.m */; };
+		5A4A291E22852AD500B38EFC /* PlayControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4A291D22852AD400B38EFC /* PlayControlView.m */; };
+		5ADCF5F722619D7100B74A4E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADCF5F622619D7100B74A4E /* CoreFoundation.framework */; };
+		5ADCF5F922619DEC00B74A4E /* libobjc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADCF5F822619DEC00B74A4E /* libobjc.tbd */; };
+		FD9D842F0638D2C8E5BA1D15 /* libPods-GPUVideoCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7515BD4187785682EE7EF807 /* libPods-GPUVideoCamera.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		5A3AFBEE213AB1D60083584A /* GPUVideoCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUVideoCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3AFBF2213AB1D60083584A /* GPUVideoCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUVideoCameraUITests.m; sourceTree = "<group>"; };
 		5A3AFBF4213AB1D60083584A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4A291C22852AD400B38EFC /* PlayControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayControlView.h; sourceTree = "<group>"; };
+		5A4A291D22852AD400B38EFC /* PlayControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayControlView.m; sourceTree = "<group>"; };
+		5ADCF5F622619D7100B74A4E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		5ADCF5F822619DEC00B74A4E /* libobjc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.tbd; path = usr/lib/libobjc.tbd; sourceTree = SDKROOT; };
+		7515BD4187785682EE7EF807 /* libPods-GPUVideoCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUVideoCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5176F630CAEEA8810BF8E5 /* Pods-GPUVideoCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUVideoCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUVideoCamera/Pods-GPUVideoCamera.release.xcconfig"; sourceTree = "<group>"; };
+		822D1DAEE4FBC7D17267D55B /* Pods-GPUVideoCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUVideoCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUVideoCamera/Pods-GPUVideoCamera.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ADCF5F922619DEC00B74A4E /* libobjc.tbd in Frameworks */,
+				5ADCF5F722619D7100B74A4E /* CoreFoundation.framework in Frameworks */,
+				FD9D842F0638D2C8E5BA1D15 /* libPods-GPUVideoCamera.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		498371D4991CAE9719A72FC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ADCF5F822619DEC00B74A4E /* libobjc.tbd */,
+				5ADCF5F622619D7100B74A4E /* CoreFoundation.framework */,
+				7515BD4187785682EE7EF807 /* libPods-GPUVideoCamera.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5A3AFBC2213AB1D40083584A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +109,8 @@
 				5A3AFBE6213AB1D60083584A /* GPUVideoCameraTests */,
 				5A3AFBF1213AB1D60083584A /* GPUVideoCameraUITests */,
 				5A3AFBCC213AB1D40083584A /* Products */,
+				E3DD23BA7F4B4E618C40D6EC /* Pods */,
+				498371D4991CAE9719A72FC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +127,7 @@
 		5A3AFBCD213AB1D40083584A /* GPUVideoCamera */ = {
 			isa = PBXGroup;
 			children = (
+				5A4A291B22852AD400B38EFC /* View */,
 				5A3AFBCE213AB1D40083584A /* AppDelegate.h */,
 				5A3AFBCF213AB1D40083584A /* AppDelegate.m */,
 				5A3AFBD1213AB1D40083584A /* ViewController.h */,
@@ -132,6 +159,24 @@
 			path = GPUVideoCameraUITests;
 			sourceTree = "<group>";
 		};
+		5A4A291B22852AD400B38EFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A4A291C22852AD400B38EFC /* PlayControlView.h */,
+				5A4A291D22852AD400B38EFC /* PlayControlView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3DD23BA7F4B4E618C40D6EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				822D1DAEE4FBC7D17267D55B /* Pods-GPUVideoCamera.debug.xcconfig */,
+				7F5176F630CAEEA8810BF8E5 /* Pods-GPUVideoCamera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A3AFBF7213AB1D60083584A /* Build configuration list for PBXNativeTarget "GPUVideoCamera" */;
 			buildPhases = (
+				C0DFA6E0976C5311F4525B39 /* [CP] Check Pods Manifest.lock */,
 				5A3AFBC7213AB1D40083584A /* Sources */,
 				5A3AFBC8213AB1D40083584A /* Frameworks */,
 				5A3AFBC9213AB1D40083584A /* Resources */,
+				1872EC3D2EC451F2FE3CC632 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +304,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1872EC3D2EC451F2FE3CC632 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GPUVideoCamera/Pods-GPUVideoCamera-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUVideoCamera/Pods-GPUVideoCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0DFA6E0976C5311F4525B39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPUVideoCamera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A3AFBC7213AB1D40083584A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +358,7 @@
 			files = (
 				5A3AFBD3213AB1D40083584A /* ViewController.m in Sources */,
 				5A3AFBDE213AB1D60083584A /* main.m in Sources */,
+				5A4A291E22852AD500B38EFC /* PlayControlView.m in Sources */,
 				5A3AFBD0213AB1D40083584A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +526,7 @@
 		};
 		5A3AFBF8213AB1D60083584A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 822D1DAEE4FBC7D17267D55B /* Pods-GPUVideoCamera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +545,7 @@
 		};
 		5A3AFBF9213AB1D60083584A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5176F630CAEEA8810BF8E5 /* Pods-GPUVideoCamera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
